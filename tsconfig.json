@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "dist",
+    "module": "nodenext",
+    "target": "es2022",
+    "types": ["node"],
+    "sourceMap": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true
+  },
+  "include": ["src", "api"],
+  "exclude": ["node_modules", "dist", "tests"]
+}
